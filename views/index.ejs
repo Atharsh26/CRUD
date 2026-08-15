@@ -31,9 +31,9 @@
     <div class="card p-4 mb-4">
       <h2 class="fw-heading h5 mb-3">
         <% if (editingStudent) { %>
-          Edit Student
+          Update a Student Record :
         <% } else { %>
-          Add a Student
+          Create a Student Record :
         <% } %>
       </h2>
 
@@ -84,7 +84,7 @@
 
     <!-- Students table -->
     <div class="card p-4">
-      <h2 class="fw-heading h5 mb-3">All Students <span class="text-muted fw-normal">(<%= students.length %>)</span></h2>
+      <h2 class="fw-heading h5 mb-3">All Student Records<span class="text-muted fw-normal">(<%= students.length %>)</span></h2>
       <div class="table-responsive">
         <table class="table align-middle">
           <thead>
